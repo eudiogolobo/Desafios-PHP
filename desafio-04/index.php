@@ -7,18 +7,20 @@
     <title>Real</title>
 </head>
 <body>
+
+    <main>
         <div>
-            <main>
+        <h5>*Desafio 04</h5>
             <h1>Analisador de Número Real</h1>
             <form action="index.php" method="get">
                 <label for="numero">Número Real:</label>
-                <input type="number" name="numero"  min="0" step="0.001">
+                <input type="number" name="numero"  min="0" step="0.001" placeholder="Digite um número...">
                 <input type="submit" value="Analisar">
 
                 <?php
                 $numero = $_GET['numero'] ?? 0;
 
-                if($numero != 0)
+                if($numero != 0 & $numero != null)
                 {
                     echo "<h1>Resultado:</h1>";   
                     echo "<p>Número escolhido: $numero</p>";
@@ -29,6 +31,8 @@
                 ?>
             </form>
         </div>
+        <button onclick=" window.location.href = '../index.html' ">Voltar</button>
     </main>
+   
 </body>
 </html>

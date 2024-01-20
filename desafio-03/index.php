@@ -9,10 +9,12 @@
 <body>
     <main>
         <div>
+        <h5>*Desafio 03</h5>
+        <h1>Conversor de Moedas v1.0</h1>
             <form action="index.php" method="get">
-                <h1>Conversor de Moedas v1.0</h1>
+                
                 <label for="reais">Quantos R$ você tem na carteira?</label>
-                <input type="number" name="numero"  min="0" step="0.001">
+                <input type="number" name="numero"  min="0" step="0.001" placeholder="Digite um valor...">
                 <input type="submit" value="Converter">
             
 
@@ -34,8 +36,11 @@
                 
             ?>
         </form>
+        
             
         </div>
+        <button onclick=" window.location.href = '../index.html' ">Voltar</button>
     </main>
+
 </body>
 </html>

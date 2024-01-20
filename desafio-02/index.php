@@ -9,7 +9,9 @@
 <body>
     <main>
         <div>
+        <h5>*Desafio 02</h5>
             <h1>Trabalhando com números aleatórios</h1>
+            <form>
             <p>Gerando número entre 0 e 100...</p>
         
                 <?php 
@@ -28,10 +30,15 @@
                     }
 
                 ?>
-        
-            <button onclick="window.location.href ='index.php?primeiraVez=1'">GERAR</a></button>
+            
+    
+                </form>
+                <button style=" width: 100%;background-color: #4CAF50;font-size: 1em;color: white;padding: 10px 20px;margin: 5px 0;border: none;border-radius: 4px;cursor: pointer;" onclick="window.location.href ='index.php?primeiraVez=1'">GERAR</a></button>
+     
         
         </div>
+        <button onclick=" window.location.href = '../index.html' ">Voltar</button>
     </main>
+    
 </body>
 </html>

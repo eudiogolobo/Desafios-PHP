@@ -127,6 +127,7 @@ table.divisao tr:nth-child(2) td:nth-child(1) {
 
 ul > li::marker {
     color: #372991;
+    
 }
 
 /* ELEMENTOS DE FORMULÁRIO */
