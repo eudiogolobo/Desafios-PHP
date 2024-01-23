@@ -53,13 +53,13 @@ $valor = $_GET['valor'] ?? 0;
 
 
         echo"<main><h2>Saque de ".numfmt_format_currency($padrao,$valor,"BRL")." Realizado</h2>";
-        echo '<p><img style="width: 150px; align-self: normal" src="nota100.jpg" > x'. $nota100 . '</p>';
+        echo '<ul><li><img style="width: 150px; align-self: normal" src="nota100.jpg" > x'. $nota100 . '</ul></li>';
 
-        echo '<p><img style="width: 150px; align-self: normal" src="nota50.jpg" > x'. $nota50 . '</p>';
+        echo '<ul><li><img style="width: 150px; align-self: normal" src="nota50.jpg" > x'. $nota50 . '</ul></li>';
 
-        echo '<p><img style="width: 150px; align-self: normal" src="nota10.png" > x'. $nota10 . '</p>';
+        echo '<ul><li><img style="width: 150px; align-self: normal" src="nota10.png" > x'. $nota10 . '</ul></li>';
 
-        echo '<p><img style="width: 150px; align-self: normal" src="nota5.jpg" > x'. $nota5 . '</p>';
+        echo '<ul><li><img style="width: 150px; align-self: normal" src="nota5.jpg" > x'. $nota5 . '</ul></li>';
 
     }
     
