@@ -12,6 +12,8 @@
         $preco = $_GET['preco'] ?? 0;
     ?>
     <main>
+    <h5>*Desafio 11</h5>
+    <h1>Reajustador de Preço</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>">
             <label for="preco">Preço do Produto (R$)</label>
             <input type="number" step="00.01" name="preco" value="<?=$preco?>">
@@ -19,6 +21,7 @@
             <input type="range" name="percentual" id="percentual" min="0" max="100" step="1" value="<?=$percentual?>" oninput="valorPercentual()">
             <input type="submit">
         </form>
+        <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
     <script>
         valorPercentual();

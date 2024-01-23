@@ -13,6 +13,7 @@
 ?>
 
 <main>
+    <h5>*Desafio 08</h5>
 <h1>Informe um Número</h1>
     <form action="<?= $_SERVER['PHP_SELF']?>" method="get">
 
@@ -20,7 +21,9 @@
     <input type="number" name="numero" value="<?=$numero?>">
     <input type="submit">
     </form>
+    <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
+    
 
     <?php 
     if($numero != null && $numero != 0)

@@ -13,6 +13,8 @@
         $nascimento = $_GET['nascimento'] ?? null; 
         ?>
     <main>
+    <h5>*Desafio 10</h5>
+    <h1>Calculando a sua Idade</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="nascimento">Em que ano você nasceu?</label>  
             <input type="number" name="nascimento" value="<?=$nascimento?>">
@@ -20,6 +22,7 @@
             <input type="number" name="anoAtual" value="<?=$anoAtual?>">  
             <input type="submit">
          </form>
+         <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
 
     <?php 

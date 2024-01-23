@@ -12,6 +12,7 @@
     $divisor = $_GET['divisor'] ?? 0;
     ?>
     <main>
+        <h5>*Desafio 06</h5>
         <h1>Anatomia de uma Divisão</h1>
     <form action="<?= $_SERVER['PHP_SELF'];?>" method="get">
 
@@ -22,6 +23,7 @@
         <input type="submit">
 
     </form>
+    <button onclick=" window.location.href = '../index.html'">Voltar</button>
 </main>
 
  <?php 

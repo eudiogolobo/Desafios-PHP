@@ -12,6 +12,8 @@
 $valor = $_GET['valor'] ?? 0;
 ?>
     <main>
+    <h5>*Desafio 13</h5>
+    <h1>Caixa Eletrônico</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
 
             <label for="valor">Qual valor você deseja sacar? (R$)</label>
@@ -19,6 +21,7 @@ $valor = $_GET['valor'] ?? 0;
             <h5>*Notas disponíveis: R$100, R$50, R$10, R$5</h5>
             <input type="submit" value="Sacar" >
         </form>
+        <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
 
     <?php 

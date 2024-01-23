@@ -12,15 +12,17 @@
     <?php 
     $salario = $_GET['salario'] ?? 0;
     ?>
+    <h5>*Desafio 07</h5>
     <h1>Informe Seu Salário</h1>
     <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
 
         <label for="salario">Salário (R$)</label>
         <input type="number" step="00.01" name="salario" value="<?=$salario?>">
-        <p>*Considerando o salário mínimo de <b>R$1.380,00</b></p>
+        <h5>*Considerando o salário mínimo de <b>R$1.380,00</b></h5>
         <input type="submit">
 
     </form>
+    <button onclick="window.location.href = '../index.html'">Voltar</button>
 </main>
 
  <?php 

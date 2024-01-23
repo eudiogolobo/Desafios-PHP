@@ -11,11 +11,14 @@
         $segundos = $_GET['segundos'] ?? 0;
     ?>
     <main>
+    <h5>*Desafio 12</h5>
+    <h1>Calculadora de Tempo</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
             <label for="segundos">Qual o total de segundos?</label>
             <input type="number" name="segundos" id="segundos" value="<?=$segundos?>">
             <input type="submit">
         </form>
+        <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
 
     <?php 

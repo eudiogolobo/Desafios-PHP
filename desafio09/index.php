@@ -16,6 +16,7 @@
             $peso02 = $_GET['peso02'] ?? 0;
         ?>
         <main>
+            <h5>*Desafio 09</h5>
         <h1>Médias Aritmétricas</h1>
         <form action="<?=$_SERVER['PHP_SELF']?>" method="get">
 
@@ -32,6 +33,7 @@
             <input type="submit">
     
         </form>
+        <button onclick="window.location.href = '../index.html'">Voltar</button>
     </main>
 
     <?php 
